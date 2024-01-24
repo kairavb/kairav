@@ -3,6 +3,7 @@ body{
   color: #c5beb7;
   margin: 0;
   padding: 0;
+  scroll-snap-type: y mandatory;
 }
 #start{
   margin: auto;
@@ -13,6 +14,7 @@ body{
 .container{
   height: 100vh;
   display: flex;
+  scroll-snap-align: start;
   justify-content: center;
   align-items: center;
   text-align: center;
