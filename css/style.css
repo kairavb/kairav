@@ -1,21 +1,5 @@
-body{
-  background-color: #191b1b;
-  color: #c5beb7;
+*{
   margin: 0;
   padding: 0;
   scroll-snap-type: y mandatory;
-}
-#start{
-  margin: auto;
-  width: 50%;
-  border: 3px solid #ffc41b;
-  padding: 10px;
-}
-.container{
-  height: 100vh;
-  display: flex;
-  scroll-snap-align: start;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
 }
