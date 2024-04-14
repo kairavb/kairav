@@ -3,3 +3,11 @@
   padding: 0;
   scroll-snap-type: y mandatory;
 }
+
+#start{
+  text-align: center;
+  margin: auto;
+  width: 50%;
+  border: 3px solid #ffc41b;
+  padding: 10px;
+}
