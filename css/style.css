@@ -26,8 +26,15 @@ body {
   max-width: fit-content;
   margin-left: auto;
   margin-right: auto;
+  padding: .8rem;
+  margin: 2.4vh auto;
+}
 
-  margin: 5vh auto;
+.heading {
+  background: #fff;
+  padding: .8rem;
+  max-width: 80vh;
+  margin: 2.4vh auto;
 }
 
 .layout_container {
@@ -43,4 +50,13 @@ body {
   z-index: 100;
   border: solid;
   padding: 2.4vh;
+}
+
+.footer {
+  padding: 2.4rem 0 0;
+}
+
+.footer-content {
+  font-size: .8rem;
+  text-align: center;
 }
