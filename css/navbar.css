@@ -1,7 +1,7 @@
-.nav-item a{
+.nav-item a {
   position: relative;
 }
-.nav-item a:before{
+.nav-item a:before {
   content: '';
   position: absolute;
   bottom: 0;
@@ -12,10 +12,10 @@
   border-radius: 12px;
   transition: all 0.4s ease;
 }
-.nav-item a:hover:before{
+.nav-item a:hover:before {
   width: 80%;
 }
 
-.dropdown-menu img{
+.dropdown-menu img {
     width: 15px;
 }
