@@ -8,14 +8,6 @@ body {
   background-color: #cccccc;
  }
 
-#start {
-  text-align: center;
-  margin: 5vh auto;
-  width: 50%;
-  border: 3px solid #ffc41b;
-  padding: 10px;
-}
-
 .container {
   display: flex;
   justify-content: center;
