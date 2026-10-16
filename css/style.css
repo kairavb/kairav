@@ -72,3 +72,46 @@ p {
   font-size: .8rem;
   text-align: center;
 }
+
+.projects-table {
+  width: 100%;
+  margin-top: 1rem;
+}
+
+.projects-table th {
+  text-align: left;
+  padding: .5rem;
+  border-bottom: 2px solid #18d765;
+}
+
+.projects-table td {
+  padding: .5rem;
+  border-bottom: 1px solid #eee;
+  vertical-align: middle;
+}
+
+.projects-table a {
+  color: #18d765;
+  font-weight: 600;
+}
+
+.contact-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-top: .5rem;
+}
+
+.contact-links a {
+  display: flex;
+  align-items: center;
+  gap: .4rem;
+  color: #18d765;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.contact-links img {
+  width: 18px;
+  height: 18px;
+}
