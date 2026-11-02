@@ -115,3 +115,37 @@ p {
   width: 18px;
   height: 18px;
 }
+
+.email-row {
+  display: flex;
+  align-items: center;
+  gap: .6rem;
+}
+
+.copy-email-btn {
+  font-size: .75rem;
+  font-weight: 600;
+  letter-spacing: 1.3px;
+  color: #18d765;
+  background: #fff;
+  border: 1px solid #18d765;
+  border-radius: 6px;
+  padding: .2rem .6rem;
+  cursor: pointer;
+  transition: background .2s ease, color .2s ease;
+}
+
+.copy-email-btn:hover {
+  background: #18d765;
+  color: #fff;
+}
+
+.heading h3 {
+  font-size: 1rem;
+  margin-top: 1rem;
+  color: #18d765;
+}
+
+.heading h3:first-of-type {
+  margin-top: .5rem;
+}
